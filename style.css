@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+
+.menu{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+.menu a{
+    text-decoration: none;
+   color:black;
+    padding: 20px 30px;
+    
+}
+.menu a:hover{
+   background-color: purple;
+    color:white;
+    
+}
+.header{
+    background-image: url(img/polygons.png);
+    padding:200px 0px;
+    background-position:top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:white;
+    background-attachment: fixed
+}
+body{
+    margin: 0;
+}
+
+
+.header a{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+    display: block;
+    width:150px;
+    margin: auto;
+    
+    
+}
+.header a:hover{
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color:white
+}
+.about{
+    padding:0 20px;
+}
+
+.about img{
+    width: 400px;
+    float:right;
+}
+.about p{
+    text-align: justify;
+}
+
+.about h1{
+    text-align: center;
+}
+.position{
+    color:gray;
+    height: 40px;
+}
+.team{
+    text-align: center;
+}
+
+.team h1{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+}
+
+.worker{
+    width: 20%;
+    display: inline-block;
+    border-style:solid;
+        border-width: 2px;
+    border-color:gray;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 10px 7px black;
+    text-align: left;
+    min-width:300px;
+}
+
+.worker a{
+    width: 100%;
+    text-align: center;
+    background-color:#055b73;
+padding: 6px 0;
+    display: block;
+    color: white;
+    border-radius: 6px;
+}
+
+.worker a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.name{
+    height: 60px;
+}
+.team .description{
+    height: 120px;
+}
+.tariffs{
+    background-color: grey;
+    text-align: center;
+    
+}
+.tariffs h1{
+    color: white;
+}
+.tariffs p{
+    
+    color: white;
+}
+
+
+
+.worker img{
+    width: 100%
+}
+
+.tariff li{
+    list-style: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#dddddd;
+ padding: 16px 0;
+ 
+}
+
+.tariff .name{
+    color:#ffffff;
+    background-color: #000000;
+    font-size: 24px;
+    padding: 32px 0;
+}
+
+.tariff{
+    width: 30%;
+    background-color: white;
+    padding: 0;
+    margin:10px;
+    display:inline-block;
+    min-width:300px;
+}
+.tariff .price{
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tariff .grey{
+    color:black;
+    opacity: 0.5;
+        
+}
+.tariff .bold{
+    font-weight: bold;
+}
+
+.tariff li:last-child{
+    background-color: #f1f1f1;
+    padding: 24px 0;
+
+}
+
+.tariff a{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 6px;
+    text-decoration: none;
+    
+
+}
+
+
+.tariff a:hover{
+    color:black;
+    background-color: white;
+}
+
+.tariff .pro{
+    background-color:#055b73;
+    padding: 48px 0;
+ 
+}
+.p1{
+    background-image: url(img/address.png) 
+}
+
+.p2{
+    background-image: url(img/phone.png)
+}
+.p3{
+    background-image: url(img/mail.png)
+}
+.info{
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding-left:30px;
+    background-position: left center;
+    margin-left:5%;
+    text-align:left;
+}
+
+.contact{
+    background-color: #f1f1f1;
+    padding: 30px 0;
+    text-align: center;
+
+}
+
+.contact input{
+    width: 90%;
+    margin: 7px 0;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.contact .click{
+   background-color: black;
+    width: 200px;
+    color:white;
+    border-radius: 7px;
+}
+
+.contact .click:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+    
+}
+.footer{
+    background-color: black;
+    color:white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

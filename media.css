@@ -1,0 +1,12 @@
+@media (max-width:575px){
+    .about p{
+        width: 450px;
+    }
+    .about img{
+        display: none;
+    }
+    .about{
+        margin:auto;
+        width:100%;
+    }
+}
